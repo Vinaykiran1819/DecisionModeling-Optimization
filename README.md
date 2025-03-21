@@ -40,9 +40,13 @@ Modern Portfolio Theory (MPT) offers a quantitative framework to optimize invest
 ## 3. Results & Visualizations
 **3.1 Optimal Stock Allocation for Different Risk Levels**
 
+![EDA_Plot1](Images/OptimalStock_Allocation.png)
+
 This chart shows how each stock’s weight shifts as we vary the target risk. Notice that certain stocks dominate at lower risk levels, while higher-risk allocations may favor different stocks with potentially higher returns.
 
 **3.2 The Efficient Frontier**
+
+![EDA_Plot2](Images/Efficient_Frontier.png)
 
 The Efficient Frontier displays the best possible risk-return combinations. Moving along this curve:
 
@@ -51,13 +55,17 @@ Uppermost Point: Maximum return for a given risk, often associated with a higher
 
 **3.3 Portfolio Performance Comparison**
 
+![EDA_Plot3](Images/Portfolio_Performance_Allocation.png)
+
 In this plot, we compare:
 
-Buy-and-Hold vs. Daily, Weekly, and Monthly rebalancing strategies.
+Buy-and-hold vs. Daily, Weekly, and Monthly rebalancing strategies.
 Performance is measured by the portfolio’s cumulative return over time.
 Rebalancing can help maintain the optimal weight distribution, potentially leading to smoother returns.
 
 **3.4 KDE Plot of Simulated Portfolio Returns**
+
+![EDA_Plot4](Images/Portfolio_Returns.png)
 
 The Kernel Density Estimate (KDE) illustrates the distribution of simulated annual returns for the portfolio. The dashed red line indicates the expected return, helping visualize where most outcomes cluster around the mean.
 
